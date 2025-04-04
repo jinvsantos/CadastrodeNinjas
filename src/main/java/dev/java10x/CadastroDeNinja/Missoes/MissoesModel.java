@@ -21,7 +21,6 @@ public class MissoesModel {
 
     private String nome;
     private String dificuldade;
-    private NinjaModel ninja;
 
     @OneToMany(mappedBy = "missoes")
     private List<NinjaModel> ninjas;
